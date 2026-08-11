@@ -1,0 +1,5 @@
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { whatsappUrl } from "../../config/template.config";
+import headerLogo from "../../assets/logo-mendonca-header.png";
+export function Header(){const[open,setOpen]=useState(false);const close=()=>setOpen(false);return <header className="site-header"><div className="container header-inner"><a href="#inicio" className="brand" aria-label="Mendonça Advogados"><img src={headerLogo} alt="Mendonça Advogados"/></a><button className="menu-button" onClick={()=>setOpen(!open)} aria-label={open?"Fechar menu":"Abrir menu"}>{open?<X/>:<Menu/>}</button><nav className={open?"nav open":"nav"}><a href="#areas" onClick={close}>Áreas de atuação</a><a href="#rural" onClick={close}>Previdenciário</a><a href="#imobiliario" onClick={close}>Imobiliário</a><a href="#sobre" onClick={close}>Quem somos</a><a className="button gold-button nav-cta" href={whatsappUrl()} target="_blank" rel="noreferrer">Falar agora</a></nav></div></header>}

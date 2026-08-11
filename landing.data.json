@@ -1,0 +1,60 @@
+{
+  "project": {
+    "name": "Template 1",
+    "displayName": "Mendonça Advogados",
+    "conversionAction": "WhatsApp",
+    "slug": "template-1",
+    "sourceTemplate": "Template 1",
+    "sourceVersion": "1.2.0"
+  },
+  "professional": {
+    "name": "Dr. Allyson Mendonça",
+    "officeName": "Mendonça Advogados",
+    "oab": "",
+    "area": "Direito Previdenciário Rural e Imobiliário Bancário",
+    "city": "Maceió/AL",
+    "biography": "Sob a liderança do Dr. Allyson Mendonça, com Layra Mendonça integrando a equipe, o escritório combina rigor técnico com atendimento humano e próximo."
+  },
+  "contact": {
+    "whatsapp": "558296200217",
+    "whatsappMessage": "Olá! Vim pelo site do Mendonça Advogados e gostaria de falar sobre meu caso.",
+    "email": "",
+    "linkedin": ""
+  },
+  "location": {
+    "city": "Maceió/AL",
+    "regions": "Alagoas, Sergipe e atendimento on-line",
+    "address": "Av. Comendador Gustavo Paiva, 2789, sala 1004, Ed. Norcon Empresarial, Mangabeiras, Maceió/AL",
+    "hours": "Segunda a sexta, das 9h às 18h",
+    "mapsQuery": "Av. Comendador Gustavo Paiva, 2789, Ed. Norcon Empresarial, Mangabeiras, Maceió, AL"
+  },
+  "theme": {
+    "primary": "#d7a42a",
+    "secondary": "#0a0a0b",
+    "style": "Institucional"
+  },
+  "hero": {
+    "title": "Previdenciário Rural com análise individual do seu caso",
+    "description": "Orientação jurídica para trabalhadores rurais e atuação em Direito Imobiliário Bancário, especialmente em contratos da Caixa Econômica Federal.",
+    "cta": "Fale pelo WhatsApp"
+  },
+  "audience": "Pessoas e empresas que buscam orientação jurídica",
+  "services": [
+    {
+      "title": "Previdenciário Rural",
+      "description": "Análise de aposentadoria rural, benefício assistencial e documentos para comprovação da atividade rural."
+    },
+    {
+      "title": "Imobiliário Bancário",
+      "description": "Análise de contratos imobiliários, principalmente os vinculados à Caixa Econômica Federal."
+    }
+  ],
+  "assets": "Ensaio profissional fornecido pelo cliente",
+  "approval": {
+    "responsible": "Dr. Allyson Mendonça",
+    "approved": false
+  },
+  "pending": [
+    "Confirmar número da OAB, e-mail institucional e validar o número de WhatsApp antes da publicação"
+  ]
+}
