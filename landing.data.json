@@ -10,14 +10,15 @@
   "professional": {
     "name": "Dr. Allyson Mendonça",
     "officeName": "Mendonça Advogados",
-    "oab": "",
+    "legalName": "ALLYSON MENDONCA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnpj": "54.779.993/0001-70",
+    "oab": "OAB/AL 2400385",
     "area": "Direito Previdenciário Rural e Imobiliário Bancário",
     "city": "Maceió/AL",
-    "biography": "Sob a liderança do Dr. Allyson Mendonça, com Layra Mendonça integrando a equipe, o escritório combina rigor técnico com atendimento humano e próximo."
+    "biography": "Sob a liderança do Dr. Allyson Mendonça, com Layra Mendonça atuando como assessora executiva, o escritório combina rigor técnico com atendimento humano e próximo."
   },
   "contact": {
-    "whatsapp": "558299823468",
-    "whatsappSecondary": "558296200217",
+    "whatsapp": "558233160007",
     "whatsappMessage": "Olá! Vim pelo site do Mendonça Advogados e gostaria de falar sobre meu caso.",
     "email": "",
     "linkedin": ""
@@ -25,12 +26,13 @@
   "location": {
     "city": "Maceió/AL",
     "regions": "Alagoas, Sergipe e atendimento on-line",
-    "address": "Av. Comendador Gustavo Paiva, 2789, sala 1004, Ed. Norcon Empresarial, Mangabeiras, Maceió/AL",
+    "address": "Av. Comendador Gustavo Paiva, 2789, sala 1004, Ed. Norcon Empresarial, Mangabeiras, CEP 57037-532, Maceió/AL",
+    "postalCode": "57037-532",
     "hours": "Segunda a sexta, das 9h às 18h",
     "mapsQuery": "Av. Comendador Gustavo Paiva, 2789, Ed. Norcon Empresarial, Mangabeiras, Maceió, AL"
   },
   "theme": {
-    "primary": "#d7a42a",
+    "primary": "#d3922f",
     "secondary": "#0a0a0b",
     "style": "Institucional"
   },
@@ -56,6 +58,6 @@
     "approved": false
   },
   "pending": [
-    "Confirmar número da OAB, e-mail institucional e validar o número de WhatsApp antes da publicação"
+    "Confirmar e-mail institucional antes da publicação"
   ]
 }
