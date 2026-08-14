@@ -7,6 +7,8 @@ export const projectData = landingData;
 export const displayName = landingData.project.displayName || landingData.professional.officeName || landingData.professional.name;
 export const phoneLabel = nationalPhone.length === 11
   ? nationalPhone.replace(/^(\d{2})(\d{5})(\d{4})$/, "($1) $2-$3")
+  : nationalPhone.length === 10
+    ? nationalPhone.replace(/^(\d{2})(\d{4})(\d{4})$/, "($1) $2-$3")
   : nationalPhone || "Informar depois";
 
 export function projectWhatsappUrl(message = landingData.contact.whatsappMessage) {
